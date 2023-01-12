@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/ecommerce_1.png'
-import thumbWalknote from '../public/images/works/ishari_1.png'
+import thumbWalknote from '../public/images/works/muhud.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -15,8 +15,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="ecommerce" title="E-Commerce" thumbnail={thumbInkdrop}>
-            Aplikasi toko baju online + terintegrasi dengan payment gateway dan manajemen email
+          <WorkGridItem
+            id="ecommerce"
+            title="E-Commerce"
+            thumbnail={thumbInkdrop}
+          >
+            Aplikasi toko baju online + terintegrasi dengan payment gateway dan
+            manajemen email
           </WorkGridItem>
         </Section>
 
