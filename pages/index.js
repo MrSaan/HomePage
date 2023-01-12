@@ -75,7 +75,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Amar adalah Software Engineer berbasis di Surabaya, Jawa Timur. Tertarik dengan membuat produk, mulai dari merencanakan dan mendesain hingga memecahkan masalah kehidupan nyata dengan kode. dasar kemampuan manajemen dan pengalaman menulis kode memberikan kepercayaan saya untuk bekerja dalam tim dengan memberikan dukungan yang berharga bagi perusahaan.
+          Amar adalah Software Engineer berbasis di Surabaya, Jawa Timur.
+          Tertarik dengan membuat produk, mulai dari merencanakan dan mendesain
+          hingga memecahkan masalah kehidupan nyata dengan kode. dasar kemampuan
+          manajemen dan pengalaman menulis kode memberikan kepercayaan saya
+          untuk bekerja dalam tim dengan memberikan dukungan yang berharga bagi
+          perusahaan.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -95,16 +100,30 @@ const Home = () => (
           Lahir di Surabaya, Jawa Timur, Indoneisa
         </BioSection>
         <BioSection>
-          <BioYear>2018</BioYear>
-          Menyelesaikan Pendidikan Sekolah Menengah Kejuruan di Surabaya, di SMKN 1 Surabaya mengambil jurusan Rekayasa Perangkat Lunak (RPL). lulus dengan nilai yang baik setelah menyelesaikan LSP (Lembaga Sertifikasi Profesi) RPL / Software Engineer
+          <BioYear>2017</BioYear>
+          Magang di Campus Impian, ITS Surabaya sebagai website developer.
+          Membuat Aplikasi surat masuk dan keluar mahasiswa fakultas
+          informatika.
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
-          Magang di Campus Impian, ITS Surabaya sebagai website developer. Membuat Aplikasi surat masuk dan keluar mahasiswa fakultas informatika.
+          <BioYear>2018</BioYear>
+          Menyelesaikan Pendidikan Sekolah Menengah Kejuruan di Surabaya, di
+          SMKN 1 Surabaya mengambil jurusan Rekayasa Perangkat Lunak (RPL).
+          lulus dengan nilai yang baik setelah menyelesaikan LSP (Lembaga
+          Sertifikasi Profesi) RPL / Software Engineer
+        </BioSection>
+        <BioSection>
+          <BioYear>2018-2022</BioYear>
+          Menjadi Relawan Sosial di Yayasan Permata Insani, Surabaya.
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Memimpin tim Penggalangan Dana Sosial Ramadhan Yayasan Permata Insani,
+          Surabaya. Daerah Surabaya Selatan & Sidoarjo.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Lulus dari perguruan tinggi &apos;Sarjana Sosia&apos;.
+          Lulus dari perguruan tinggi &apos;Sarjana Sosial&apos;.
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
@@ -117,9 +136,11 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Seni, Musik,{' '}
-          Playing Games,{' '}
-          <Link href="https://www.instagram.com/amar_firmansyah_/" target="_blank">
+          Seni, Musik, Playing Games,{' '}
+          <Link
+            href="https://www.instagram.com/amar_firmansyah_/"
+            target="_blank"
+          >
             Photography
           </Link>
           , Membaca
@@ -154,7 +175,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/amar_firmansyah_/" target="_blank">
+            <Link
+              href="https://www.instagram.com/amar_firmansyah_/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
